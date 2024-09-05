@@ -1,0 +1,69 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Registro</title>
+  <link rel="stylesheet" href="css/style.css">
+  <meta name="description" content="Registrate en nuestra academia">
+
+  <link rel="icon" href="/favicon.ico" sizes="any">
+  <link rel="icon" href="/icon.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon.png">
+
+  <link rel="manifest" href="site.webmanifest">
+  <meta name="theme-color" content="#fafafa">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img width="200" src="img/comunes/conquerblocks.png" alt="logo">
+    </div>
+    <nav>
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="quienes_somos.html">Quienes somos</a></li>
+        <li><a href="cursos.html">Cursos</a></li>
+        <li><a href="blog.html">Blog</a></li> 
+        <li><a href="contacto.html">Contacto</a></li>
+        <li>Registro</li>
+        <li><a href="login.html">Login</a></li>
+      </ul>
+    </nav>
+  </header>  
+           
+  <main>
+    <section>
+      <h1>Registro</h1>
+      <p>Registrate en nuestra academia</p>
+    </section>
+    <form action="post" enctype="multipart/form-data">
+      <p><label for="nombre">Nombre</label>
+      <input type="text" id="nombre" name="nombre" required><br> </p>
+      <p><label for="birthday">Fecha de nacimiento</label>
+      <input type="date" id="birthday" name="birthday"><br></p>
+      <p><label for="email">Email</label>
+      <input type="email" id="email" name="email"required><br></p>
+      <p><label for="direction">Dirección</label>
+      <input type="text" id="direction" name="direction"><br></p>
+      <p><label for="paginaweb">Pagina web</label>
+      <input type="text" id="paginaweb" name="paginaweb"><br></p>
+      <p><label for="photo">Foto</label>
+      <input type="file" id="photo" name="photo"><br></p>
+      <p><label for="biography">Biografia</label>
+      <textarea id="biography" name="biography"cols=30 rows=5></textarea><br></p>
+      <p><label for="password">Password</label>
+      <input type="password" id="password" name="password"><br></p>
+      <p><button type="submit">Registrar</button></p> 
+      <p><button type="reset">Borrar formulario</button></p>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Academia Conquer. Todos los derechos reservados. - <a href="aviso_legal.html">Aviso Legal</a></p>
+  </footer>
+</body>
+
+</html>
